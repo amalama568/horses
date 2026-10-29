@@ -1,0 +1,75 @@
+html {
+	scroll-behavior: smooth;
+}
+
+.main-title {
+	color: #c62828;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 60px;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+.gallery-list {
+	padding: 0;
+	list-style: none;
+}
+
+.gallery-item + .gallery-item {
+	margin-top: 24px;
+}
+
+.gallery-card {
+	display: flex;
+	align-items: center;
+	gap: 24px;
+}
+
+.gallery-item:nth-child(even) .gallery-card {
+	flex-direction: row-reverse;
+}
+
+.gallery-image {
+	width: 50%;
+	max-width: 50vw;
+	max-height: 400px;
+	height: auto;
+	object-fit: contain;
+}
+
+.gallery-description {
+	margin: 0;
+}
+
+.horse-name {
+    font-size: 40px;
+}
+
+footer p {
+	color: #6a1b9a;
+}
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.nav-item {
+    border: 1px solid #c62828;
+}
+.nav-item a {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
